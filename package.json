@@ -1,0 +1,27 @@
+{
+  "name": "restful-api",
+  "version": "1.0.0",
+  "description": "App Api Restful",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandroti7/restful-api.git"
+  },
+  "author": "Leandro Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandroti7/restful-api/issues"
+  },
+  "homepage": "https://github.com/leandroti7/restful-api#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
