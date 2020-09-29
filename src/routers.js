@@ -18,6 +18,9 @@ module.exports = [
     {
         method: 'DELETE',
         path: '/api/v1/products/{id}',
-        handler: productsHandler.remove
+        handler: productsHandler.remove,
+        options:{
+            cors: true
+        }
     }
 ]
